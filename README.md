@@ -5,11 +5,11 @@
 
 This repository collects papers, systems, benchmarks, and related resources on the **LLM agent harness**: the external executable layer that turns a language model into an agent by organizing control flow, tools, memory, state, validation, repair, safety, and human oversight.
 
-The list is organized through the **Human–Machine–Task Contract**: how responsibility is assigned among the human, the LLM, the tool/environment, and the harness itself. We include work where the external system around the model materially changes agent behavior; we avoid generic agent demos, prompt-only methods, and broad product lists without reusable harness mechanisms.
+The list is organized through the **Human-Machine Task Contract**: how responsibility is assigned among the human, the LLM, the tool/environment, and the harness itself. We include work where the external system around the model materially changes agent behavior; we avoid generic agent demos, prompt-only methods, and broad product lists without reusable harness mechanisms.
 
 ---
 
-## Human–Machine–Task Contract Taxonomy
+## Human-Machine Task Contract Taxonomy
 
 ```
 LLM Agent Harness
@@ -39,7 +39,7 @@ LLM Agent Harness
 ## Contents
 
 - [Scope](#scope)
-- [Human–Machine–Task Contract Taxonomy](#humanmachinetask-contract-taxonomy)
+- [Human-Machine Task Contract Taxonomy](#humanmachinetask-contract-taxonomy)
 - [Harness Papers and Systems](#harness-papers-and-systems)
   - [1. Core Surveys and Position Papers](#1-core-surveys-and-position-papers)
   - [2. Harness Foundations: Reasoning–Acting Loops](#2-harness-foundations-reasoning-acting-loops)
@@ -390,7 +390,7 @@ Benchmarks are grouped by the harness component they make visible. The goal is n
 | Resource | Owner / Organization | Scope | Description |
 |---|---|---|---|
 | [Awesome-Agent-Harness](https://github.com/Gloriaameng/Awesome-Agent-Harness) | Gloriaameng | Harness survey and resource list | A direct neighboring resource that explicitly uses the agent-harness framing and collects harness papers and systems. This repository is the closest comparator; our list should remain distinct by indexing each work through responsibility allocation, state ownership, action validity, failure boundaries, repair, and human oversight. |
-| [Agent Systems with Harness Engineering](https://github.com/RUCAIBox/awesome-agent-harness) | RUCAIBox | Harness engineering survey companion repo | A structured academic roadmap around harness engineering, including design, model adaptation, benchmarks, and future directions. It validates the field-level importance of harnesses; our repository complements it by using the Human–Machine–Task Contract as the main organizing lens. |
+| [Agent Systems with Harness Engineering](https://github.com/RUCAIBox/awesome-agent-harness) | RUCAIBox | Harness engineering survey companion repo | A structured academic roadmap around harness engineering, including design, model adaptation, benchmarks, and future directions. It validates the field-level importance of harnesses; our repository complements it by using the Human-Machine Task Contract as the main organizing lens. |
 | [Awesome-Code-as-Agent-Harness-Papers](https://github.com/YennNing/Awesome-Code-as-Agent-Harness-Papers) | YennNing | Code-as-harness papers | A focused resource on code as the operational substrate for agent harnesses. It is best treated as the primary related list for the code-as-harness subsection, while this repository covers a broader contract stack including tools, policy, memory, verification, benchmarks, and human oversight. |
 | [awesome-harness-engineering](https://github.com/ai-boost/awesome-harness-engineering) | ai-boost | Practitioner-oriented harness engineering | A fast-moving engineering list covering patterns, tools, memory, MCP, permissions, observability, and orchestration. It is useful for ecosystem awareness; our repository should compete on scholarly curation, verified paper metadata, and contract-oriented taxonomy rather than practitioner breadth alone. |
 | [awesome-agentic-workflow-optimization](https://github.com/IBM/awesome-agentic-workflow-optimization) | IBM | Agentic workflow optimization | A close adjacent resource for workflow graphs, runtime planning, and optimization. It is especially relevant to execution and orchestration harnesses; our repository should extend beyond workflow optimization into human boundaries, tool validity, policy enforcement, repair, and evaluation environments. |
